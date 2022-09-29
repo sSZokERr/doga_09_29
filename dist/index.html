@@ -6,9 +6,52 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
 </head>
 <body>
-    <p>This is a template</p>    
-    <script src='main.js'></script>
+    <style>
+        .dark-mode {
+  background-color: black;
+  color: white;
+}
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.but{
+    float: right;
+}
+
+    </style>
+    <table class='col-md-12''>
+        <tr>
+            <td>Kep neve: <input class="form-control form-rounded" type="text" id="inkep"></td>
+            <td>Szelesseg: <input class="form-control form-rounded" type="number" id="width" value="100"></td>
+            <td>Vastagsag: <input class="form-control" type="text" id="wide"></td>
+            <td>Szin: <input class="form-control" type="text" id="color"></td>
+        </tr>
+        <tr>
+            <td><p></p></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><img src="../src/pics/kutya.jpg" alt="kep" id="pic"></td>
+        </tr>
+    </table>
+
+    
+    
+    <footer><p>Matuska Alex, 2/14s <button class="but" type="button" id="theme">Tema valtas</button></p></footer>
+    
+    
+    
+
+
+    
+    
 </body>
 </html>
